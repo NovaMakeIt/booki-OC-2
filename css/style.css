@@ -283,7 +283,6 @@ form button {
 .hebergements-cards {
     display: flex;
     gap: 30px;
-    /*outline: red 1px solid;*/
 }
 
 .hebergements-cards .card {
@@ -291,7 +290,6 @@ form button {
     max-height: 207px;
     flex-direction: column;
     flex: 1;
-    /*outline: blue 1px solid;*/
 }
 
 .hebergements-cards img {
@@ -552,12 +550,18 @@ footer {
 
     form {
         border-radius: 15px;
-        outline: red 1px solid;
+        outline: #F2F2F2 1px solid;
     }
 
     form button {
         max-width: 49px;
         border-radius: 15px;
+        filter: drop-shadow(0px 4px 4px #00000040);
+    }
+    
+    .input-recherche {
+        width: 70%;
+        border: none;
     }
 
     .button-rechercher {
