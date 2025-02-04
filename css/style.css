@@ -444,7 +444,7 @@ footer {
     gap: 15px;
 }
 
-.footer-div ul p {
+.footer-div ul .p-footer {
     font-weight: 700;
     font-size: 18px;
     line-height: 21.13px;
