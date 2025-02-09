@@ -217,7 +217,7 @@ form button {
   gap: 15px;
 }
 
-.filtre-economique, .filtre-familial, .filtre-romantique, .filtre-pepites {
+.filtre-individuel {
   display: flex;
   gap: 10px;
   height: 50px;
@@ -227,7 +227,7 @@ form button {
   padding: 0px 19px;
 }
 
-.filtre-economique:hover, .filtre-familial:hover, .filtre-romantique:hover, .filtre-pepites:hover {
+.filtre-individuel:hover {
   background-color: #DEEBFF;
   cursor: pointer;
 }
